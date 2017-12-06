@@ -1,0 +1,21 @@
+{
+    "name": "illuminate/foundation",
+    "description": "The Illuminate Foundation package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YongHun Byun",
+            "email": "yonghunbyun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/contracts": "5.5.*",
+        "illuminate/support": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illuminate\\Foundation\\": ""
+        }
+    }
+}
